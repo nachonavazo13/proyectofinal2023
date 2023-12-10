@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto - CAB</title>
+    <link rel="shortcut icon" href="img/cab-ico.ico" type="image/x-icon">
+</head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Esto es para la parte responsiva -->
+
+        <img class="bg" src="img/bg.png" alt="">
+        <div class="menu-conteiner">
+            <img src="img/logo-removebg-preview.png" class="logo" alt="">
+            <!-- <a href="#" class="logo">Logo</a> -->
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-escudo" alt="">
+            </label>
+            <!-- Creamos una barra navegadora -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#volver">Selecciones</a></li>
+                    <li><a href="#prospect">Prospectos</a></li>
+                    <li><a href="especial.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- Inicio de parte agregada -->
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/guerra-removebg-preview.png" id="img-cab" alt="">
+                        <div id="carga">
+                            <table id="lista">
+                                <thead>
+                                    <tr>
+                                        <th>Player</th>
+                                        <th>Torneo</th>
+                                        <th>Estadisticas</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <!-- Se llenaria con js cuando podamos manejar base de datos -->
+                                <tbody></tbody>
+                            </table>
+                            <a href="form.html" id="cargar-info" class="btn-3">Loggearse</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="header-cont">
+                
+            <div class="header-txt"> 
+                <h1> <span>Más </span>prospectos</h1>
+                <p>En Sudamérica, el baloncesto ha visto surgir una generación de jóvenes talentos destacados, cuyas habilidades prometen trascender las fronteras continentales. Entre los prospectos más prometedores, figuran jugadoras y jugadores de entre 16 y 19 años, cuyo potencial en la cancha ha capturado la atención de aficionados y expertos por igual. Desde hábiles armadores con visión periférica y dominio de balón, hasta pivotes imponentes con destrezas técnicas y fortaleza física, Sudamérica está siendo testigo de una cosecha excepcional de talento en el baloncesto juvenil. Estos jóvenes atletas, a través de su determinación y dedicación, están posicionándose para forjar un legado en el mundo del baloncesto, representando la promesa y el futuro de este deporte en la región.</p> 
+                <!-- <a href="#estrellas" class="btn-1">Mas Informacion</a> -->
+            </div>
+            <div class="header-img">
+                <img src="img/basket23-removebg-preview.png" alt="">
+            </div>
+            
+        </div>
+    </header>
+
+    <section class="player-conteiner">
+        <!-- <h2 id="volver">Selecciones</h2>
+        <div class="player-content">
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <a href="u15.html">Seleccion-U15</a>
+                
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <a href="u16.html" id="prueba">Seleccion-U16</a>
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <a href="u18.html">Seleccion-U18</a>
+            </div>
+
+            <div class="player-1">
+                <img src="img/guerra-removebg-preview.png" alt="">
+                <a href="u19.html">Seleccion-U19</a>
+            </div>
+
+        </div> -->
+
+    </section> 
+
+
+    <section class="info">
+        <img src="img/bg-2.png" class="bg-2" alt="">
+
+        <div class="info-content-conteiner">
+
+            <div class="info-img">
+                <img src="img/guerra-removebg-preview.png" alt="">
+            </div>
+            <img src="img/u19w-removebg-preview.png" alt="">
+
+            <!-- <div class="info-txt">
+                <h2 id="estrellas">"Futuras Estrellas del Baloncesto Argentino"</h2>
+                <p>"Descubre a los talentos más prometedores del baloncesto argentino menor de 20 años, tanto en la rama masculina como en la femenina. Estos jóvenes atletas están listos para dejar su marca en la escena nacional e internacional del baloncesto".</p>
+                <a href="#" class="btn-1">Volver</a>
+            </div> -->
+
+        </div>
+
+    </section>
+
+
+    <main class="players-conteiner">
+        <h2 id="prospect">Prospectos</h2>
+
+        <div class="box-conteiner" id="lista-1">
+            <div class="box">
+
+                <img src="img/brasil1.jpg" alt="">
+                <div class="players-txt">
+                    <h3>Milagros Clauser</h3>
+                    <p>Talentosa jugadora de baloncesto de la selección argentina, destaca por su agilidad y versatilidad en la cancha. Alera incansable, domina el regate y los tiros precisos. Su pasión y dedicación inspiran a los jóvenes atletas, encarnando el futuro prometedor del deporte argentino.</p>
+                    <p class="condicion">Posicion: Alera</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/07/2007</p>
+                    <p class="condicion">Altura:1,90 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/uruguay2.jpg" alt="">
+                <div class="players-txt">
+                    <h3>Amparo Robles</h3>
+                    <p>Figura destacada de la selección argentina de baloncesto, se distingue como pivote y tiradora de 3 puntos hábil y estratégica. Su presencia dominante en la cancha complementa su destreza en el juego exterior, consolidando su papel crucial y dinámico en el equipo.</p>
+                    <p class="condicion">Posicion: Pivot</p>
+                    <p class="condicion">Fecha de Nacimineto: 16/04/2006</p>
+                    <p class="condicion">Altura:1,93 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/colombia3.jpg" alt="">
+                <div class="players-txt">
+                    <h3>Miguel Jordan</h3>
+                    <p>Es un talentoso jugador de la selección argentina de baloncesto, sobresale como escolta dinámica y astuta. Con su habilidad para penetrar la defensa y su destreza en tiros a larga distancia, encarna la promesa juvenil del baloncesto argentino, cautivando a aficionados con su juego versátil..</p>
+                    <p class="condicion">Posicion: Escolta</p>
+                    <p class="condicion">Fecha de Nacimineto: 17/02/2008</p>
+                    <p class="condicion">Altura:1,98 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+            <div class="box">
+
+                <img src="img/brasil4.jpg" alt="">
+                <div class="players-txt">
+                    <h3>Mariano Marcos</h3>
+                    <p>Es una estrella en el ascenso de la selección argentina de baloncesto. Su destreza como base es sorprendente, mostrando una visión de juego excepcional y liderazgo en la cancha. Su habilidad para coordinar y anotar con precisión la convierte en un activo fundamental para el equipo.</p>
+                    <p class="condicion">Posicion: Base</p>
+                    <p class="condicion">Fecha de Nacimineto: 23/09/2007</p>
+                    <p class="condicion">Altura:2,00 mts</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Estadisticas-FIBA</a>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+        <a href="index.html" class="btn-2" id="load-more">Volver</a>
+
+        <!-- <div class="btn-2" id="load-more">Volver</div> -->
+
+    </main>
+    <footer class="footer">
+        <section class="footer-content-conteiner" id="contacto">
+            <div class="contenido-seccion">
+                <h2 class="titulo-seccion">Medios de Contacto</h2>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-phone"></i> Telefono
+                        </h2>
+                        <span class="info-contacto">011-4385336</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-envelope"></i> Email
+                        </h2>
+                        <span class="info-contacto">cab@gmail.com</span>
+                    </div>
+                    <div class="col">
+                        <h2>
+                            <i class="fa-solid fa-globe"></i> Pagina Web
+                        </h2>
+                        <span class="info-contacto">https://www.argentina.basketball</span>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

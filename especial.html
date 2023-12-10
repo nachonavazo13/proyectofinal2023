@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Proyecto - CAB</title>
+    <link rel="shortcut icon" href="img/cab-ico.ico" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="especial.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- Esto es para la parte responsiva -->
+
+        <img class="bg" src="img/bg.png" alt="">
+        <div class="menu-conteiner">
+            <img src="img/logo-removebg-preview.png" class="logo" alt="">
+
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" class="menu-escudo" alt="">
+            </label>
+            <!-- Creamos una barra navegadora -->
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#volver">Selecciones</a></li>
+                    <li><a href="#prospect">Prospectos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="img/guerra-removebg-preview.png" id="img-cab" alt="">
+                        <div id="carga">
+                            <table id="lista">
+                                <thead>
+                                    <tr>
+                                        <th>Player</th>
+                                        <th>Torneo</th>
+                                        <th>Estadisticas</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody></tbody>
+                            </table>
+                            <a href="form.html" id="cargar-info" class="btn-3">Loggearse</a>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="form-content">
+                <div class="input-group">
+                    <h1 id="title">Contacto</h1>
+                    <form action="/mensajes" onsubmit="return validar();" class="form" id="contactForm" method="POST">
+                        <!-- Agregue en form id="contactForm" method="post" -->
+                        
+                        <div class="input-field" id="nameInput">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="nombre" id="nombre" value="" placeholder="Nombres"><br>
+                            <div id="validar_nombre" style="color: red;">&nbsp; </div>
+                        </div>
+
+                        <div class="input-field" id="nameInput">
+                            <!-- <i class="fa-solid fa-lock"></i> -->
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" name="email" id="email" value="" placeholder="Email"><br>
+                            <div id="validar_clave" style="color: red;">&nbsp; </div>
+
+                        </div>
+
+                        <div class="input-field" id="nameInput">
+                            <i class="fa-solid fa-phone"></i>
+                            <input type="text" name="telefono" id="telefono" value="" placeholder="Telefono"><br>
+                            <div id="validar_telefono" style="color: red;">&nbsp; </div>
+
+                        </div>
+                       
+                        <div class="input-field" id="nameInput">
+                            <i class="fa-solid fa-envelope"></i>
+                            <textarea id="mensaje_texto" name="mensaje_texto" rows="4" cols="35" value="" placeholder="Mensaje"></textarea>
+                            <!-- <input type="text" name="msn" id="msn" value="" placeholder="Mensaje"><br> -->
+                            <div id="validar_mensaje_texto" style="color: red;">&nbsp; </div>
+
+                        </div>
+                        <div class="btn-field">
+                            <input type="submit" value="Enviar">
+
+                        </div>
+                    
+                    </form>
+
+
+
+                </div>
+
+
+                
+
+
+                
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <script src="formularios.js"></script> -->
+        <script src="formulario23.js"></script>
+        <!-- Agregue este archvo js para que funciones -->
+
+</body>
+
+</html>
